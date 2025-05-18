@@ -1,3 +1,10 @@
+/**
+ * Velto E-Commerce Main Script
+ * Handles product display, cart, search, sort, and notifications.
+ * Maintainer: usmankashif-dev
+ * Last updated: May 2025
+ */
+
 let currentPage = 1;
 let productsPerPage = 6;
 const products = [
@@ -27,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             container.innerHTML += `
                 <div class="col-md-4 col-sm-6 mb-4 product">
                     <div class="card-shadow-sm rounded-4 border border-1 border-gray">
-                        <img src="${product.img}" class="card-img-top rounded-top-4" alt="${product.title}">
+                        <img src="${product.img}" class="card-img-top rounded-top-4" alt="${product.title} product image">
                         <div class="card-body">
                             <h5 class="card-title product-name">${product.title}</h5>
                             <p class="card-text">${product.desc}</p>
