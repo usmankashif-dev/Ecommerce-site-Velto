@@ -1,0 +1,59 @@
+#bag {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 880px;
+}
+#main-content {
+height: 880px;
+width: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+#icon {
+    background-image: url(V.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+#txt-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+#txt {
+    color: white;
+    font-size: xx-large;
+}
+#button-div {
+    margin-top: 100px;
+}
+#button {
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#button-txt {
+    font-size: large;
+    text-decoration: none;
+}
+#button:hover {
+    color: white;
+    background-color: rgb(255, 115, 0);
+    transition: ease;
+    transition-duration: 1s;
+    transform: translateY(-20px)
+}
+#buttom-a {
+    text-decoration: none;
+}

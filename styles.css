@@ -1,0 +1,54 @@
+
+#bagimage {
+    background-color: #f8f9fa;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+#navbar-icon {
+    height: 40px;
+    width: 40px;
+    background-image: url(V.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#bagimage {
+    background-image: url(bagimage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 2 / 1;
+}
+#imgbag {
+    height: 50px;
+}
+.add-to-cart {
+    background-color: orange;
+     
+}
+.add-to-cart:hover {
+    cursor: pointer;
+}
+#cart:hover {
+    cursor: pointer;
+}
+.add-to-fav {
+    background-color: orange;
+     
+}
+.add-to-fav:hover {
+    cursor: pointer;
+}
+.sort {
+    width: 8%;
+    margin-right: 10px;
+}
+.card-shadow-sm {
+    min-height: 525px;
+}
+#sort-options {
+    width: 10%;
+    margin-right: 10px;
+}

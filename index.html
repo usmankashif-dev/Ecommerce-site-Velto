@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velto</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ANIMATIONS.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg shadow-sm bg-warning">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div id="navbar-icon" class="me-2 rounded-1 animation-load-down"></div>
+                <span id="navbar-icontxt" class="text-white fs-3 animation-load-down">Velto</span>
+            </a>
+            <select id="sort-options" class="form-control">
+                <option value="default">Default v</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="a">A-Z</option>
+                <option value="z">Z-A</option>
+            </select>
+            
+            
+          <input type="text" name="" id="search-bar" class="form-control me-4" placeholder="Search Products">
+            <div class="ms-auto d-flex align-items-center" id="cart">
+                <i class="fa-solid fa-cart-shopping me-1 fs-3 text-white animation-load-down"></i>
+                
+                    <p class="mb-0 fs-3 text-white animation-load-down" id="cartcount">0</p>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="vw-100 d-grid align-items-end" id="bagimage">
+      <div class="w-100 bg-dark d-grid justify-content-center align-items-center" id="imgbag">
+
+        <p class="fs-4 fw-bold text-white">Our Products</p>
+      </div>
+    </div>
+    <div class="container py-4">
+        <div class="row" id="product-container">
+        </div>
+    </div>
+    <div class="d-flex justify-content-between">
+        <button id="prev-btn" class="btn btn-warning text-white"><</button>
+        <button id="next-btn" class="btn btn-warning text-white">></button>
+    </div>
+    
+    <div id="notification"></div>
+    <script src="bootstrap.min.js" defer></script>
+    <script src="main.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+   
+</html>

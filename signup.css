@@ -1,0 +1,49 @@
+* {
+    font: icon;
+    margin: 0px;
+    padding: 0px;
+}
+#heading-div {
+    margin: 0px 0px 70px 0px;
+}
+#signup-button {
+    height: 90%;
+    width: 100px;
+}
+@media screen and (max-width: 768px) {
+    #bag {
+        height: 100vh;
+        padding: 20px;
+    }
+    #login-div {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    #username-div, #password-div, #button-div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #heading-txt {
+        font-size: 24px;
+    }
+    #login-div {
+        width: 95%;
+        padding: 15px;
+    }
+    #signup-button {
+        height: 90%;
+    }
+    #login-div {
+        width: 75% !important;
+    }
+    
+}
+@media screen and (max-width: 3000px) {
+   #login-in {
+    height: 300px;
+   }
+    
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0cap;
+}
+#logo {
+    background-image: url(V.jpg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fn-btn {
+    background-color: rgb(255, 124, 1);
+    height: 35px;
+    width: 100px;
+}
