@@ -9,11 +9,6 @@ A modern and responsive e-commerce website for shopping a variety of products in
 - Checkout process
 - Responsive design for all devices
 
-## Screenshots
-Add a screenshot of your homepage or a demo GIF here:
-
-![Homepage Screenshot](screenshot.png)
-
 ## Installation
 1. Clone this repository:
    ```powershell
@@ -40,6 +35,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 This project is licensed under the MIT License.
 
----
-Feel free to update this README with more details or screenshots as your project evolves.
+
 
